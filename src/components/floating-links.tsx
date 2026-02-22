@@ -1,4 +1,4 @@
-import { ClipboardClock, Smile, BookCheck, Joystick, Zap } from 'lucide-react'
+import { ClipboardClock, Smile, BookCheck, Shovel, Zap } from 'lucide-react'
 import { useLanguage } from '../contexts/language-context'
 
 export function FloatingLinks() {
@@ -59,7 +59,7 @@ export function FloatingLinks() {
                     title={t('ariaPlay')}
                     tabIndex={-1}
                 >
-                    <Joystick className="w-6 h-6 text-zinc-900 dark:text-white transition-colors" />
+                    <Shovel className="w-6 h-6 text-zinc-900 dark:text-white transition-colors" />
                 </a>
             </div>
 
