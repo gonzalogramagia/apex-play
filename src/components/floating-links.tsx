@@ -22,7 +22,7 @@ export function FloatingLinks() {
                 {/* Home Button */}
                 <a
                     href={homeUrl}
-                    className="p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 group cursor-pointer"
+                    className="hidden sm:block p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 group cursor-pointer"
                     aria-label={t('ariaHome')}
                     title={t('ariaHome')}
                 >
@@ -32,7 +32,7 @@ export function FloatingLinks() {
                 {/* Emojis Button */}
                 <a
                     href={emojisUrl}
-                    className="p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 group cursor-pointer"
+                    className="hidden sm:block p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 group cursor-pointer"
                     aria-label={t('ariaEmojis')}
                     title={t('ariaEmojis')}
                 >
