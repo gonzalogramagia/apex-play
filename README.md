@@ -33,17 +33,22 @@
 ## 🕹 Usage
 
 ### 🌐 Language Support
+
 - The game automatically switches language based on the route (e.g., `/en` for English).
 
 ### 🚀 How to Play
+
 #### **General**
+
 - **Start/Restart**: Press **Any Key** when the game is over or starting.
 - **Objective**: Avoid obstacles to increase your score!
 
 #### **Classic Mode**
+
 - **Jump**: Press **Space**, **W**, **Arrow Up**, or **Click**.
 
 #### **Insano Mode**
+
 - **Jump**: Press **W** or **Arrow Up**.
 - **Movement**: Use **A / D** or **Left / Right Arrows** to move horizontally.
 - **Shoot**: Hold and release **Space** to charge and fire a rock.
@@ -51,11 +56,12 @@
 - **Survival**: Don't let the backward drag (which increases over time!) push you completely off the left side of the screen!
 
 ### 🧭 Quick Access
-- **Today** (📅): Go to your daily task manager
-- **Emojis** (😎): Access the emoji picker app
-- **Scripting** (📖): Access the private scripting utility
-- **Play** (🎮): You are here!
-- **Moovimiento** (⚡): Navigate to Moovimiento
+
+- **Today** (📅): Go to your daily task manager — [apex.hoy.today](https://apex.hoy.today/en)
+- **Emojis** (😎): Access the emoji picker app — [apex.milemojis.com](https://apex.milemojis.com/en)
+- **Scripting** (📖): Access the scripting search — [apexsearch.onrender.com](https://apexsearch.vercel.app/en)
+- **Play** (🎮): You are here! — [apex.antipala.pro](https://apex.antipala.pro/en)
+- **Moovimiento** (⚡): Navigate to Moovimiento — [moovimiento.com](https://moovimiento.com/en)
 
 ---
 

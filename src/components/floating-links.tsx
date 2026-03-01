@@ -11,7 +11,7 @@ export function FloatingLinks() {
 
     const homeUrl = getUrl("https://apex.hoy.today/")
     const emojisUrl = getUrl("https://apex.milemojis.com")
-    const scriptingUrl = getUrl("https://apex-private.onrender.com")
+    const scriptingUrl = getUrl("https://apexsearch.vercel.app")
     const antipalaUrl = getUrl("https://apex.antipala.pro")
     const moovimientoUrl = getUrl("https://moovimiento.com")
 
