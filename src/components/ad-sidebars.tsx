@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useGame } from '../contexts/game-context';
+import { useLanguage } from '../contexts/language-context';
 
 const AD_IMAGES = [
     '/ad-moovimiento/1.png',
@@ -13,8 +14,11 @@ const getRandomImage = () => AD_IMAGES[Math.floor(Math.random() * AD_IMAGES.leng
 
 export function AdSidebars() {
     const { gameMode, showAds } = useGame();
+    const { language } = useLanguage();
     const [leftImage, setLeftImage] = useState(getRandomImage());
     const [rightImage, setRightImage] = useState(getRandomImage());
+
+    const adUrl = language === 'en' ? 'https://moovimiento.com/en' : 'https://moovimiento.com';
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -27,7 +31,7 @@ export function AdSidebars() {
 
     const AdUnit = ({ image, className }: { image: string; className: string }) => (
         <a
-            href="https://moovimiento.com"
+            href={adUrl}
             target="_blank"
             rel="noopener noreferrer"
             className={`fixed top-1/2 -translate-y-1/2 hidden xl:block w-[150px] h-[700px] transition-opacity duration-500 hover:opacity-90 ${className}`}

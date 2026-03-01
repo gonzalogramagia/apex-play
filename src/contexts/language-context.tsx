@@ -31,7 +31,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         es: {
             ariaHome: "Ir a Today",
             ariaEmojis: "Ir a Emojis",
-            ariaMusic: "Ir a Música",
+            ariaScripting: "Ir al Scripting",
             ariaPlay: "¡Hora de jugar!",
             gameScore: "Puntaje",
             gameHighScore: "Puntaje máximo de la semana",
@@ -54,7 +54,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         en: {
             ariaHome: "Go to Today",
             ariaEmojis: "Go to Emojis",
-            ariaMusic: "Go to Music",
+            ariaScripting: "Go to Scripting",
             ariaPlay: "Game time!",
             gameScore: "Score",
             gameHighScore: "Best score of the week",
