@@ -44,7 +44,6 @@ export function FloatingLinks() {
                     href={scriptingUrl}
                     className="peer p-3 flex items-center bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 group cursor-pointer"
                     aria-label={t('ariaScripting')}
-                    title={t('ariaScripting')}
                 >
                     <BookCheck className="w-6 h-6 shrink-0 text-zinc-900 dark:text-white group-hover:text-yellow-500 transition-colors" />
                     <span className="font-semibold text-sm text-zinc-900 dark:text-white group-hover:text-yellow-500 max-w-0 overflow-hidden opacity-0 group-hover:max-w-[150px] group-hover:opacity-100 group-hover:ml-2 whitespace-nowrap transition-all duration-300 ease-in-out">
